@@ -7,6 +7,8 @@
     margin-top: 90px;
 }
 
+
+
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
     color: rgb(11, 10, 10);
     position: relative;
@@ -27,10 +29,7 @@
    padding:10px 70px;
 }
 
-.expp{
-    margin-top: 15px;
-    margin-left: 100px;
-}
+
 
 .last-section{
     padding-left: 100px;
@@ -41,30 +40,63 @@
 .owl-carousel .owl-nav button.owl-next{
     position: absolute;
     right: 0;
-    margin-top: -350px;
+    margin-top: -345px;
 }
 
 .owl-carousel .owl-nav button.owl-prev{
     position: absolute;
-    margin-top: -350px;
+    margin-top: -345px;
     margin-left: 450px;
     
 }
 
 @media only screen and (max-width: 768px) {
-.swiggy-first-coloumn{
-    width: 760px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    margin-top: -565px;
 }
 
-.food{
-    text-align: end;
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    margin-top: -565px;
+    margin-left: 100px;
 }
 
-body{
-    
+.showmore{
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 
+
+.best-food .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    margin-top: -355px;
+    margin-left: 100px;
+}
+
+.best-food .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    margin-top: -355px;
+    margin-left: 450px;
+}
+
+
+.food-mind .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 0;
+    margin-top: -315px;
+} 
+
+.food-mind .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    margin-top: -315px;
+}
+
+.play_store{
+    width: 160px !important;
+}
+
+.app_store{
+    width: 160px !important;
+}
 }
